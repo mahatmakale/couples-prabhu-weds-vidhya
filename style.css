@@ -567,7 +567,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 
 @media (max-width: 768px) {
     .hero-bg, .final-bg {
-        background-attachment: scroll; /* Fix for mobile parallax lag */
+        background-attachment: fixed; /* Fix for mobile parallax lag */
     }
 }
 
